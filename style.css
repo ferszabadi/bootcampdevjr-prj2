@@ -1,10 +1,14 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+
 .container {
+    background-image: linear-gradient(to bottom, #200C23, #5C1D67);
     margin: auto;
-
-    width: 600px;
-
+    width: 700px;
     box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
-
     border-radius: 5px;
     overflow: hidden;
 
@@ -19,5 +23,4 @@
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 1.2rem;
-    text-align: center;
 }
