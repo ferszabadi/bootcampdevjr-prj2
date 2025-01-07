@@ -4,6 +4,15 @@ body {
     text-align: center;
 }
 
+button {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px 25px;
+    border: none;
+}
+
 .container {
     background-image: linear-gradient(to bottom, #200C23, #5C1D67);
     margin: auto;
@@ -11,7 +20,16 @@ body {
     box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     overflow: hidden;
+    font-size: 16px;
 
+}
+
+.container-formulario {
+    background-image: linear-gradient(to bottom, #5B1C66, #220E25);
+    width: 90%;
+    border-radius: 5px;
+    margin: auto;
+    padding: 2%;
 }
 
 .flex-container {
@@ -30,9 +48,15 @@ body {
     margin-bottom: 1.2rem;
 }
 
+.header-subtitle {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 input {
-    width: 60%;
-    height: 22px;
+    width: 80%;
+    height: 10px;
     padding: 0.9rem;
     font-size: 1.2rem;
     border-radius: 5px;
@@ -46,14 +70,26 @@ input:focus {
 }
 
 .card-votacao {
-    background-color: #ffffff;
-    width: 30%;
-    padding: 0.6rem 1.2rem;
+    background-image: linear-gradient(to bottom, #3F62EF, #6FC5FD);
+    border-radius: 5px;
+    border-color: #2637DB;
+    border-style: solid;
+    border-width: 15px 10px;
+    width: 25%;
+    padding: 1000x;
     color: #FFFFFF;
+    display: flex;
+    margin-top: 40px;
 }
 
 .category-title {
     font-size: 1.2rem;
     text-align: center;
     margin-bottom: 1.2rem;
+}
+
+.rodape {
+    font-size: 12px;
+    padding: 1%;
+    font-weight: bold;
 }
