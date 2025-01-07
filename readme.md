@@ -16,6 +16,6 @@ Desafio sugerido pelo [BootCamp Dev Jr](https://courses.bootcamp.abutua.com/#), 
 
 ## Imagens de referência
 
-![Card de Games - Desktop](imgs_referencia\module02-project-desktop.png)
+![Card de Games - Desktop](https://github.com/ferszabadi/bootcampdevjr-prj2/blob/master/imgs_referencia/module02-project-desktop.png)
 
-![Card de Games - Mobile](imgs_referencia\module02-project-mobile.png)
+![Card de Games - Mobile](https://github.com/ferszabadi/bootcampdevjr-prj2/blob/master/imgs_referencia/module02-project-mobile.png)
