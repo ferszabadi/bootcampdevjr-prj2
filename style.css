@@ -35,6 +35,7 @@ button {
 .flex-container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .header {
@@ -82,7 +83,7 @@ input:focus {
     margin-top: 40px;
 }
 
-.category-title {
+.category {
     font-size: 1.2rem;
     text-align: center;
     margin-bottom: 1.2rem;
@@ -92,4 +93,31 @@ input:focus {
     font-size: 12px;
     padding: 1%;
     font-weight: bold;
+}
+
+@media screen and (max-width: 620px) {
+    html {
+        font-size: 14px;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .card-votacao {
+        width: 60%;
+        box-sizing: border-box;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .container-formulario {
+        width: 85%;
+    }
+
+    .header {
+        padding: 15px;
+    }
 }
